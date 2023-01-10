@@ -1,11 +1,8 @@
 import React from "react";
+import Layout from "../sections/layout";
 
-const Home = () => {
-  return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
-  );
+const Home: React.FC = () => {
+  return <Layout />;
 };
 
 export default Home;
